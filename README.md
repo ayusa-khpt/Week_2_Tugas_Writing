@@ -387,3 +387,40 @@ function calculateArea(width,height){
     }
   })
   ```
+### Primitive dan Non-Primitive
+## **Primitive**
+
+- Numbers
+- Strings
+- Booleans
+- undefined
+- null
+
+Contoh Primitive
+
+```
+ let a = 5
+ let b = a
+ console.log(a) // 5
+ console.log(b) // 5
+ console.log(a === b) // true
+ a = 10
+ console.log(a) // 10
+ console.log(b) // 5
+ console.log(a === b) // false
+```
+## **Non-Primitive**
+
+- Objects
+- Arrays
+- Functions
+
+Contoh Non-Primitive
+```
+ let a = [10]
+ let b = a
+ console.log(a === b) // true
+ a.push(10)
+ console.log(a) // [10, 10]
+ console.log(a === b) // true
+```
